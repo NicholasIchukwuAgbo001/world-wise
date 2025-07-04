@@ -5,13 +5,17 @@ import Pricing from "./pages/Pricing";
 
 const App = () => {
   return (
-    <BrowserRouter> 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="product" element={<Product />} />
-        <Route path="pricing" element={<Pricing />} />
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <h2>Hello Niko Router</h2>
+
+      <BrowserRouter> 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="product" element={<Product />} />
+          <Route path="pricing" element={<Pricing />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 
