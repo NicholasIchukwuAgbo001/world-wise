@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
-      WorldWise
+      <h1>This is the Home page</h1>
+      <button>
+        <Link to="/product">Product</Link>
+      </button>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
