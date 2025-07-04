@@ -4,7 +4,7 @@ import Home from "./Home";
 const Pricing = () => {
   return (
     <div>
-      <h1>Pricing</h1>
+      <h2>Pricing</h2>
       <button>
         <Link to="/">Home</Link>
       </button>

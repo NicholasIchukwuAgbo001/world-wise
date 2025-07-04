@@ -6,7 +6,7 @@ import Pricing from "./pages/Pricing";
 const App = () => {
   return (
     <div>
-      <h2>Hello Niko Router</h2>
+      <h1>Hello Niko Router</h1>
 
       <BrowserRouter> 
         <Routes>
