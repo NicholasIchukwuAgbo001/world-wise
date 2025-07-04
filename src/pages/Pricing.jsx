@@ -5,9 +5,6 @@ const Pricing = () => {
   return (
     <div>
       <h2>Pricing</h2>
-      <button>
-        <Link to="/">Home</Link>
-      </button>
     </div>
   )
 }

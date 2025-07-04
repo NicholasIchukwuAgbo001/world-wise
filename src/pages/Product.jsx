@@ -4,9 +4,6 @@ const Product = () => {
   return (
     <div>
       <h2>This is the product page</h2>
-      <button>
-        <Link to="/">Home</Link>
-      </button>
     </div>
   );
 };
