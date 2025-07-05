@@ -1,3 +1,4 @@
+// Uses the same styles as Product
 import styles from "./Product.module.css";
 
 export default function Product() {
