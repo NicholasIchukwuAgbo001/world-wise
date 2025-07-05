@@ -15,7 +15,7 @@ const PageNav = () => {
             <NavLink to="/pricing">Pricing</NavLink>
         </li>
         <li>
-            <NavLink to="login" className={Styles.ctaLink}>Login</NavLink>
+            <NavLink to="/login" className={Styles.ctaLink}>Login</NavLink>
         </li>
       </ul>
     </nav>
