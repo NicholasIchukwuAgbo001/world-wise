@@ -20,6 +20,7 @@
   font-weight: 600;
 }
 
+/* CSS Modules feature */
 .nav a:global(.active) {
   color: var(--color-brand--2);
 }
