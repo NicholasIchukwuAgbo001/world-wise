@@ -3,7 +3,7 @@ import Styles from './PageNav.module.css'
 
 const PageNav = () => {
   return (
-    <nav class={Styles.nav}>
+    <nav className={Styles.nav}>
       <ul>
         <li>
             <NavLink to="/">Home</NavLink>
