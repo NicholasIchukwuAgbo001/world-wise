@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import PageNav from "../components/PageNav";
 
 const Home = () => {
   return (
     <div>
+      <PageNav />
       <h2>This is the Home page</h2>
-      <Link to="/product">Product</Link>
     </div>
   );
 };
