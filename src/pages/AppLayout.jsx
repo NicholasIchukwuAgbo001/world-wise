@@ -1,9 +1,11 @@
-import React from 'react'
+import Sidebar from '../components/sidebar'
 
-export default function AppLayout() {
+const AppLayout = () => {
   return (
     <div>
-      App Layout
+      <Sidebar />
     </div>
   )
 }
+
+export default AppLayout
